@@ -1,0 +1,52 @@
+utils.lo: /home/out001a/code/zephir-study/utils/ext/utils.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/utils.c -o utils.lo 
+kernel/main.lo: /home/out001a/code/zephir-study/utils/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /home/out001a/code/zephir-study/utils/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /home/out001a/code/zephir-study/utils/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /home/out001a/code/zephir-study/utils/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /home/out001a/code/zephir-study/utils/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /home/out001a/code/zephir-study/utils/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /home/out001a/code/zephir-study/utils/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /home/out001a/code/zephir-study/utils/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /home/out001a/code/zephir-study/utils/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /home/out001a/code/zephir-study/utils/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /home/out001a/code/zephir-study/utils/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /home/out001a/code/zephir-study/utils/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /home/out001a/code/zephir-study/utils/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /home/out001a/code/zephir-study/utils/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /home/out001a/code/zephir-study/utils/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/concat.lo: /home/out001a/code/zephir-study/utils/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /home/out001a/code/zephir-study/utils/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /home/out001a/code/zephir-study/utils/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /home/out001a/code/zephir-study/utils/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /home/out001a/code/zephir-study/utils/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /home/out001a/code/zephir-study/utils/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/kernel/exit.c -o kernel/exit.lo 
+utils/greeting.lo: /home/out001a/code/zephir-study/utils/ext/utils/greeting.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/out001a/code/zephir-study/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/out001a/code/zephir-study/utils/ext/utils/greeting.zep.c -o utils/greeting.lo 
+$(phplibdir)/utils.la: ./utils.la
+	$(LIBTOOL) --mode=install cp ./utils.la $(phplibdir)
+
+./utils.la: $(shared_objects_utils) $(UTILS_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_utils) $(UTILS_SHARED_LIBADD)
+
